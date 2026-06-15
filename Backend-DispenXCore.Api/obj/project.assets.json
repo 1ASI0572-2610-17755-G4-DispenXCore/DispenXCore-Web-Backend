@@ -3650,11 +3650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego Bastidas\\Desktop\\backend\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Diego Bastidas\\Desktop\\Nueva carpeta\\DispenXCore-Web-Backend\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api.csproj",
       "projectName": "Backend-DispenXCore.Api",
-      "projectPath": "C:\\Users\\Diego Bastidas\\Desktop\\backend\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api.csproj",
+      "projectPath": "C:\\Users\\Diego Bastidas\\Desktop\\Nueva carpeta\\DispenXCore-Web-Backend\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api.csproj",
       "packagesPath": "C:\\Users\\Diego Bastidas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diego Bastidas\\Desktop\\backend\\Backend-DispenXCore.Api\\Backend-DispenXCore.Api\\obj\\",
+      "outputPath": "C:\\Users\\Diego Bastidas\\Desktop\\Nueva carpeta\\DispenXCore-Web-Backend\\Backend-DispenXCore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diego Bastidas\\AppData\\Roaming\\NuGet\\NuGet.Config"
