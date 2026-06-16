@@ -2,13 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# Copiamos solo el proyecto primero para agilizar futuras compilaciones
-COPY ["Backend-DispenXCore.Api/Backend-DispenXCore.Api.csproj", "Backend-DispenXCore.Api/"]
-RUN dotnet restore "Backend-DispenXCore.Api/Backend-DispenXCore.Api.csproj"
+# Copiamos el archivo de proyecto y restauramos dependencias
+COPY Backend-DispenXCore.Api.csproj ./
+RUN dotnet restore "Backend-DispenXCore.Api.csproj"
 
-# Copiamos todo tu código y lo compilamos para producción
+# Copiamos todo tu código y compilamos
 COPY . .
-WORKDIR "/src/Backend-DispenXCore.Api"
 RUN dotnet publish "Backend-DispenXCore.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Etapa 2: Imagen súper ligera solo para ejecutar tu API
